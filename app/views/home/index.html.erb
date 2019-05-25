@@ -1,2 +1,6 @@
 <h1>Thanks</h1>
 <p>あなたの感謝を伝えるサービス</p>
+<% @messages.each do |message| %>
+  <%= message.to_user %><br>
+  <%= message.context %>
+<% end %>
