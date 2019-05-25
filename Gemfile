@@ -26,6 +26,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
   gem 'pry-rails'
   gem 'pry-byebug'
   gem 'pry-doc'  

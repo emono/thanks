@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_25_074317) do
+ActiveRecord::Schema.define(version: 2019_05_25_085558) do
 
   create_table "messages", force: :cascade do |t|
     t.text "context"
