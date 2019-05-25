@@ -12,11 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2019_05_25_093635) do
 
-  create_table "messages", force: :cascade do |t|
-    t.text "context"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "to_user", null: false
-  end
+# Could not dump table "messages" because of following StandardError
+#   Unknown type 'test' for column 'context'
 
 end
